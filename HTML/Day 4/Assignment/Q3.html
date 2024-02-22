@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form action="/action">
+        <h2>Feedback Form</h2>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Write your name">
+        </div> 
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Write your email">
+        </div>
+        <div>
+            <label for="message">Message:</label> <br>
+           <textarea name="messaage" id="message" cols="30" rows="2"></textarea>
+        </div>
+        <div>
+             <h3>Rate us our of 5:</h3>
+            <input type="radio" id="rating" name="rating" value="1">
+            <label for="rating">1</label> <br>
+            <input type="radio" id="rating" name="rating" value="2">
+            <label for="rating">2</label> <br>
+            <input type="radio" id="rating" name="rating" value="3">
+            <label for="rating">3</label> <br>
+            <input type="radio" id="rating" name="rating" value="4">
+            <label for="rating">4</label> <br>
+            <input type="radio" id="rating" name="rating" value="5">
+            <label for="rating">5</label> <br>
+        </div>
+        <button type="submit">Send your message!</button>
+    </form>
+</body>
+</html>

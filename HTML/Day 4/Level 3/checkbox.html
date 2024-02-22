@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form with checkbox and radio.</title>
+</head>
+<body>
+    <form action="/action">
+        Age:
+        <label for="age">I am 18+</label>
+        <input type="checkbox" name="age" id="age" >
+        <div>
+            Choose one of these:
+            <input type="radio" name="fruit" id="apple" value="Apple"> <!--Radio type input element-->
+            <label for="apple">Apple</label>
+            <input type="radio" name="fruit" id="mango" value="Mango">
+            <label for="mango">Mango</label>
+            <input type="radio" name="fruit" id="orange" value="Orange">
+            <label for="orange">Orange</label>
+            <input type="radio" name="fruit" id="grapes" value="Grapes">
+            <label for="grapes">Grapes</label>
+        </div>
+        <div>
+            Choose your Subject:
+            <label for="math">math</label>
+            <input type="checkbox" name="sub" id="math" value="math" >
+            <label for="english">english</label>
+            <input type="checkbox" name="sub" id="english" value="english">  <!--Checkbox type input element-->
+            <label for="science">science</label>
+            <input type="checkbox" name="sub" id="science" value="science">
+        </div>
+        <div>
+        Choose one option:
+        <select name="profession" id="profession">
+            <option value="">Select the option.</option>  <!--option type input element-->
+            <option value="writer">Writer</option>               
+            <option value="developer">Developer</option>
+        </select>
+        </div> 
+        <div>
+            Select your volume:
+            <label for="volume">Volume</label>
+            <input type="range" min="0" max="100" id="vol" name="vol" value="" step="5">  <!--Range type input element. Step attribute  is used to give constant increment in slider.-->
+        </div>
+        <label for="feedback">Feedback:</label>
+        <textarea name="feedback" id="feedback" cols="50" rows="2" placeholder="write here..." ></textarea>
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
