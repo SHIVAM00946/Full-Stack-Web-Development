@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using label in form..</title>
+</head>
+<body>
+    <button>Push</button> <!--doesn't submit the response-->
+    <form action="action">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="e.g. Shivam Maurya"> 
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password">
+        </div>
+        <div>
+            <label for="age">Your age:</label>
+            <input type="number" id="age" placeholder="your age">
+        </div>
+        <button>Submit </button> <!--Submit the response-->
+        <button type="reset">reset</button> <!--reset the data filled by user in webpage-->
+        <br>
+        <input type="button" value="Clickme"> <!--button using input but this method is not advisable-->
+        <input type="submit" value="Clickme2">
+    </form>
+</body>
+</html>
