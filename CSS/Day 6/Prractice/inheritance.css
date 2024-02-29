@@ -1,0 +1,17 @@
+h1{
+    color: brown;
+    text-decoration: underline;
+}
+div{
+    background-color: wheat;
+}
+/* form{
+    background-color: green;
+} */
+/* to inherit the input and button element according to their parent element..... */
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}

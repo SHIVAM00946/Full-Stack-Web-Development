@@ -1,0 +1,35 @@
+#mainTopic{
+    color: blue;
+}
+/*Universal selector- select whole documents.*/
+*{
+    text-align: center;  
+}
+h1,h3,h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#prgp{
+    color: white;
+    background-color: cornflowerblue;
+}
+div>button{
+    background-color: purple;
+    color:azure;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+#prgp:nth-of-type(2n+1){
+    color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+#yes:checked + label{
+    color: darkgreen;
+}
+/* 
+    order of the given according to their specificity..
+    h1(001) > .main(010) > div .main(011) > #mainContent(100)
+*/
