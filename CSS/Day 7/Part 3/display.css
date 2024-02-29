@@ -1,0 +1,54 @@
+h2{
+    display: inline;
+    background-color: skyblue;
+
+}
+span{
+    color: lightblue;
+    border: 2px solid black;
+    width: 100px;     /* not work in inline element */
+    height: 100px;  /* not work in inline element */
+    margin: 50px;
+    Padding: 50px;
+
+}
+.box {
+    background-color: lightsalmon;
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    /* display: inline;  this will show the content in the form of three vertical lines */
+    display: inline-block;  /* display: inline-block; --> Style like a block element and shown as a inline element(in single line) */
+}
+
+#outer{
+    border: 4px solid black;
+    background-color: pink;
+    height: 200px;
+    width: 400px;
+    font-size: 40px;
+
+}
+#inner{
+    border: 3px solid darkblue;
+    background-color: yellow;
+    height:50px;
+    width: 100px;
+    font-size: 0.5em;   /* o.5em means the font size of inner div is 0.5 times the outer div */
+    padding: 10px;
+
+}
+button{
+    font-size: 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: inline-block;
+    margin-top: 7rem;
+   
+}
+/* .section-cont > * {
+    display: flex;
+} */
