@@ -1,0 +1,12 @@
+div{
+    height: 200px;
+    width: 400px;
+    background-color: #ff0000ff;
+    margin: 0 auto;
+    transition: margin-top 2s ease-in-out 0.2s;
+}
+div:hover{
+    background-color: #00ff00aa;
+    /* border-radius: 50px; */
+    margin-top: 400px;
+}

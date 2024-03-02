@@ -1,0 +1,14 @@
+#alpha{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.5);
+    /* background-color: rgba(255, 0, 0, 0); it will not dissapear the element inside this div */
+
+}
+#opacity{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    /* opacity: 0; it will dissapear all the the element inside the div having class opacity */
+    opacity: 0.8;
+}

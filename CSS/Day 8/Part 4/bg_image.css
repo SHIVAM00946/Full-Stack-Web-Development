@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 400px;
+    background-color: rgba(255, 255, 0, 0.545);
+    text-align: center;
+    color: black;
+    margin: 10px auto;
+    background-image: url("bg_image.jpg");
+    /* background-size: contain;  -->it repeats the image to fit the image in given element... */
+    background-size: cover;  /* -->it will crop the image according to the given element. */
+    /* background-image: auto;  it will scale/stretch the image according to the given elemnt  */
+    
+}
