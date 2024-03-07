@@ -1,0 +1,57 @@
+.box{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+
+    /* animation-name: widthanimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: colanimate 4s ease-in 0s 6 normal ;
+}
+@keyframes fontanimation {
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+    
+}
+@keyframes coloranimation {
+    from{
+        background-color: aquamarine;
+    }
+    to{
+        background-color: yellow; 
+    }
+}
+
+@keyframes widthanimation{
+    from{
+        width: 20px;
+    }
+    to{
+        width: 500px;
+    }
+}
+
+@keyframes colanimate{
+   
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: red;
+    }
+    80%{
+        background-color: black;
+    }
+    100%{
+        background-color: yellow;
+    }
+
+}
