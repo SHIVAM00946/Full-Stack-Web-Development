@@ -1,0 +1,14 @@
+#container{
+    height: 50px;
+    width: 900px;
+    background-color: lightsalmon;
+    border: 2px solid black;
+    border-radius: 10px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+#container p{
+    margin-left: 20px;
+}
+
